@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+.hero{
+	display:inline-block;
+	width:500px;
+	
+	}
+.hero>img{
+	background-size:cover;
+}
+.hero>h5{
+	display:inline
+	
+}
+.hero>button{
+	background-color:red;
+	color:white;
+	border-radius:5px;
+	border:none;
+	display:inline;
+}
