@@ -3,24 +3,23 @@
 	display:flex;
 	width:500px;
 	flex-wrap:no-wrap;
-margin:50px;
+/* margin:50px; */
+	align-item:centre;
+	justify-content:space-around;
 /* 	height:50px */
 /* 	justify-content:space-around; */
 	}
 .h5{
-	padding:50px;
+	padding:30px;
+	margin-top:50px;
+	}
 }
-
-/* .hero>h5{
-	display:inline */isko rkhne se red ho raha kaise
-	
-}
-.butt>button{
+.butt{
 	background-color:red;
 	color:red;
 	border-radius:50px;
 	margin:50px;
-/* 	border:none; */
+
 	
 /* 	display:flex-start; */
 }
