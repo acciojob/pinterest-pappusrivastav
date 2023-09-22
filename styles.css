@@ -1,35 +1,29 @@
 /*  your css code here. If applicable */
-.hero{
-	display:flex;
-	width:600px;
-	flex-wrap:no-wrap;
-/* margin:50px; */
-	align-item:centre;
-	justify-content:space-around;
-	
-/* 	height:50px */
-/* 	justify-content:space-around; */
-	}
-.text>h5{
-	padding:30px;
-	margin-top:50px;
-	margin-bottom:0px;
-	}
-.text>h6{
-margin-left:20px;; 	
-margin-bottom:0px;	
-margin-top:10px;
-	padding-bottom:10px;
-	padding-top:0px;
+/*  your css code here. If applicable */
+*{
+	padding: 0px;
+	margin: 0px;
 }
-.text>button{
-	background-color:red;
-	color:white;
-	margin-top:0px;
-	border:none;
-	margin-left:30px;
-	width:90px;
-    height:25px;
-	border-radius:2px;
-/* 	display:flex-start; */
+img{
+	width: 600px;
+	height: 200px;
+	object-fit: cover;
+}
+.hero{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: no-wrap;
+}
+#btn{
+	background-color: red;
+	padding: 20px;
+	color: white;
+	border-radius: 10px;
+}
+.one{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-top;
+	flex-wrap: wrap
 }
