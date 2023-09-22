@@ -1,25 +1,35 @@
 /*  your css code here. If applicable */
 .hero{
 	display:flex;
-	width:500px;
+	width:600px;
 	flex-wrap:no-wrap;
 /* margin:50px; */
 	align-item:centre;
 	justify-content:space-around;
+	
 /* 	height:50px */
 /* 	justify-content:space-around; */
 	}
-.h5{
+.text>h5{
 	padding:30px;
 	margin-top:50px;
+	margin-bottom:0px;
 	}
+.text>h6{
+margin-left:20px;; 	
+margin-bottom:0px;	
+margin-top:10px;
+	padding-bottom:10px;
+	padding-top:0px;
 }
-.butt{
+.text>button{
 	background-color:red;
-	color:red;
-	border-radius:50px;
-	margin:50px;
-
-	
+	color:white;
+	margin-top:0px;
+	border:none;
+	margin-left:30px;
+	width:90px;
+    height:25px;
+	border-radius:2px;
 /* 	display:flex-start; */
 }
